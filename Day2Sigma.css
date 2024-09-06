@@ -1,0 +1,42 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img
+{
+    height: 250px;
+    border-radius: 50%;
+}
+
+/*Css styling button*/
+/* a
+{
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: rgb(0, 126, 243);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+    margin-bottom: 10px;
+} */
+
+/*Css styling button*/
+/*Challenges (Optional)*/
+a
+{
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+    margin-bottom: 10px;
+}

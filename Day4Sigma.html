@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple BMI</title>
+    <link rel="stylesheet" href="Day4Sigma.css" type="text/css">
+</head>
+<body>
+    <script src="Day4Sigma.js"></script>
+
+    <h1>BMI Calculator</h1>
+    <img style="width: 100; height: 250px;" src="/SigmaSchool/6Projectsin6Days/Photo/avocado-exercise.png" alt="Avacado Picture">
+
+    <form action="">
+        <table>
+            <thead>
+                <tr>
+                    <td>Info</td>
+                    <td>Input</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="name">Your Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="height">Height (m)</label>
+                    </td>
+                    <td>
+                        <input type="number" id="height">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="weight">Weight (kg)</label>
+                    </td>
+                    <td>
+                        <input type="number" id="weight">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+    <button onclick="calculateBMI()">Calculate BMI</button>
+
+    <p id="result"></p>
+</body>
+</html>

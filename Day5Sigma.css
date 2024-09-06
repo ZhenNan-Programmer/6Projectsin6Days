@@ -1,0 +1,54 @@
+#quote-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#author
+{
+    font-size: 36px;
+    font-style: italic;
+}
+
+img
+{
+    width: 150px;
+}
+
+button
+{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 280px;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover
+{
+    transform: translateY(-5px);
+    transform: translateX(5px);
+    box-shadow: -10px 10px 10px black;
+    color: black;
+}
+
+button:active
+{
+    transform: translateY(5px);
+    transform: translateX(-5px);
+    box-shadow: none;
+    color: white;
+}
